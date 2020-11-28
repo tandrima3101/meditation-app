@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.vid-container{
+  width: 100%; 
+  position: fixed;  
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container > div{
+    width: 30%;
+    height: 100%;
+}
+.time-select{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.time-select button{
+    border: 2px #fff solid;
+    background-color: transparent;
+    color: #fff;
+    height: 100px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.play-pause{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.play-pause>button{
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.play-pause>button:focus{
+    outline: none;
+}
+.play-pause>button> img{
+    width: 100%;
+}
+.theme{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.theme > button{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.theme > button:focus{
+    outline: none;
+}
+.theme > button > img{
+    height: 100%;
+    width: 100%;
+}
